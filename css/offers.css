@@ -1,0 +1,173 @@
+/*start header*/
+.back__link
+{
+   
+        width: 100px;
+        height: auto;
+        padding: 9px;
+        color: white;
+        background-color: #af1b65;
+        position: fixed;
+        top: 0;
+        z-index: 999999;
+        font-weight: bold;
+      animation: back 1s 10000000 linear;
+    font-size: 30px;
+    }
+
+@keyframes back {
+    0%{padding-left: 20px;}
+    100%{color: navy;}
+
+}
+.back__link a
+{
+    color: white;
+    text-decoration: none;
+}
+#nav-top-header
+{
+    padding-top: 10px;
+    padding-bottom: 60px;
+   
+    
+}
+.header .div2
+{
+text-align: center;
+}
+
+.header .div1 h1
+{
+    font-size: 30px;
+    color: #9d5314;
+    font-weight: bolder;
+    text-shadow: 13px 10px 6px rgb(96 93 71 / 56%);
+    position: relative;
+    top: 20px;
+    
+    
+}
+.header .div1 h1::first-letter{font-size:40px; color: red;}
+.header .div1 h1 span{font-size:40px; color: red;}
+
+.header .div2 span a
+{
+    font-size:23px ;
+    color: black;
+    font-weight: 300;
+    margin-left: 13px ;
+    margin-right: 3px;
+    position: relative;
+    top: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.header .div2 span  .a1::after{content:"|"; margin-left: 7px;}
+.header .div2 span  .a2::after{content:"|";margin-left: 7px;}
+.header .div2 span  .a3::after{content:"|";margin-left: 7px;}
+.header .div2 span  .a4::after{content:"|";margin-left: 7px;}
+.header .div2 span  .a5::after{content:"|";margin-left: 7px;}
+.header .div2 span  .a6::after{content:"";margin-left: 7px;}
+.slash{position: relative;top: 59px;font-size: 40px;  left: 7px;}
+.header .div2 span  .a6{min-width: 10%;}
+.header .div2 span  .a7{min-width: 10%;}
+
+
+
+.header .div2 span a:hover
+{
+    color: rgb(179, 14, 14);
+    text-decoration: none;
+    border-bottom: 4px double rgb(151, 103, 103) ;
+    font-size:25px ;
+    text-shadow: 3px 3px 5px black ;
+   
+   
+}
+
+.header .div2 span .a6:hover
+{ 
+    color: rgb(39, 14, 179);
+    text-decoration: none;
+    border-bottom: 4px double rgb(151, 103, 103) ;
+    font-size:25px ;
+    text-shadow: 3px 3px 5px black ;
+}
+.header .div2 span .a7:hover
+{
+    color: rgb(21, 179, 73);
+    text-decoration: none;
+    border-bottom: 4px double rgb(151, 103, 103) ;
+    font-size:25px ;
+    text-shadow: 3px 3px 5px black ;
+}
+/*end header*/
+
+
+/*start offers*/
+.offers
+{
+    background: url('http://lh4.ggpht.com/-y7-urjriBC8/UKXAmRKpG8I/AAAAAAAAeaY/yJUM7L_uu-4/brillos-brujamar-1012_thumb%2525255B2%2525255D.gif%3Fimgmax%3D800') no-repeat center center fixed;
+    background-size: cover;
+    margin-top: 144px;
+    padding: 70px 0px ;
+  
+}
+.jumbotron h6{font-size: 25px;font-weight: bold; font-style: italic;}
+.offers div{margin-top: 10px;}
+.offers .jumbotron{transition: all 1s ease-in-out;}
+
+.offers .jumbotron:hover{transform: skewY(20deg);}
+/*end offers*/
+
+
+/*start fotter*/
+
+.fotter span{display: block; line-height: 40px; font-size: 20px;  font-weight: 700;color: #d37c16;
+    transition: all 1s ease-in-out;
+}
+.fotter span:hover{ font-size: 24px;transform: skewX(20deg);cursor: pointer;}
+.fotter h4{
+    
+     font-style: italic;
+     color: #f0750a;
+     font-size: 33px;
+     font-weight: 700;
+    }
+#Tellusyoursuggestion
+{
+    font-style: italic;
+     color: #f0750a;
+     font-size: 27px;
+     font-weight: 700
+}
+.send{width: 250px; margin-bottom: 10px; margin-top: 10px;transition: all 0.7s ease-in-out;}
+.send:hover{width: 300px;height: 40px;}
+.footer textarea
+{
+width: 85%;
+max-height: 120px;
+}
+.sebt{width: 200px; margin-top: 3px; border-radius: 0;transition: all 0.7s ease-in-out;}
+.sebt:hover{width: 220px;border-radius: 5px;}
+.fotter{padding-top: 50px; padding-bottom: 50px;background-color:#f8f8f8; height: auto;}
+.end2{font-size: 25px; color: #f0750a;margin-top: 45px;}
+/*end fotter*/
+
+.glfa
+{
+  font-size: 50px;
+  margin-top: 55px;
+}
+.glfa:hover{cursor: pointer;}
+.div_show
+{
+  background-color: #9f9797ed;
+  width: 100%;
+  padding: 20px;
+  height: 300px;
+  position: fixed;
+  z-index: 55;
+  top: 184px;
+  display: none;
+}

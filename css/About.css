@@ -1,0 +1,321 @@
+
+.back__link
+{
+   
+        width: 100px;
+        height: auto;
+        padding: 9px;
+        color: white;
+        background-color: #af1b65;
+        position: fixed;
+        top: 0;
+        z-index: 999999;
+        font-weight: bold;
+      animation: back 1s 10000000 linear;
+    font-size: 30px;
+    }
+
+@keyframes back {
+    0%{padding-left: 20px;}
+    100%{color: navy;}
+
+}
+.back__link a
+{
+    color: white;
+    text-decoration: none;
+}
+/*start header*/
+
+#nav-top-header
+{
+    padding-top: 10px;
+    padding-bottom: 60px;
+   
+    
+}
+.header .div2
+{
+text-align: center;
+}
+
+.header .div1 h1
+{
+    font-size: 30px;
+    color: #9d5314;
+    font-weight: bolder;
+    text-shadow: 13px 10px 6px rgb(96 93 71 / 56%);
+    position: relative;
+    top: 20px;
+    
+    
+}
+.header .div1 h1::first-letter{font-size:40px; color: red;}
+.header .div1 h1 span{font-size:40px; color: red;}
+
+.header .div2 span a
+{
+    font-size:23px ;
+    color: black;
+    font-weight: 300;
+    margin-left: 13px ;
+    margin-right: 3px;
+    position: relative;
+    top: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.header .div2 span  .a1::after{content:"|"; margin-left: 7px;}
+.header .div2 span  .a2::after{content:"|";margin-left: 7px;}
+.header .div2 span  .a3::after{content:"|";margin-left: 7px;}
+.header .div2 span  .a4::after{content:"|";margin-left: 7px;}
+.header .div2 span  .a5::after{content:"|";margin-left: 7px;}
+.header .div2 span  .a6::after{content:"";margin-left: 7px;}
+.slash{position: relative;top: 59px;font-size: 40px;  left: 7px;}
+.header .div2 span  .a6{min-width: 10%;}
+.header .div2 span  .a7{min-width: 10%;}
+
+
+
+.header .div2 span a:hover
+{
+    color: rgb(179, 14, 14);
+    text-decoration: none;
+    border-bottom: 4px double rgb(151, 103, 103) ;
+    font-size:25px ;
+    text-shadow: 3px 3px 5px black ;
+   
+   
+}
+
+.header .div2 span .a6:hover
+{ 
+    color: rgb(39, 14, 179);
+    text-decoration: none;
+    border-bottom: 4px double rgb(151, 103, 103) ;
+    font-size:25px ;
+    text-shadow: 3px 3px 5px black ;
+}
+.header .div2 span .a7:hover
+{
+    color: rgb(21, 179, 73);
+    text-decoration: none;
+    border-bottom: 4px double rgb(151, 103, 103) ;
+    font-size:25px ;
+    text-shadow: 3px 3px 5px black ;
+}
+/*end header*/
+
+
+/*start carsoul*/
+.carousel-inner img
+{
+    width: 100%;
+    max-height: 350px;
+}
+.carsol-1{margin-top: 144px;}
+
+.carousel-indicators li
+{
+    height: 20px;
+    width: 20px;
+}
+.carousel-indicators .active
+{
+    height: 20px;
+    width: 20px;
+    background-color: #f0750a;
+}
+
+.carousel-caption
+{
+    background-color: #0000008f;
+    height: 200px;
+}
+.carousel-caption .caption1
+{
+    color: antiquewhite;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-shadow: 25px 20px 102px #1b21db;
+}
+
+
+/*end carsoul*/
+
+/*start what is ratatoy*/
+.whatisratatoy h3
+{
+    font-size: 32px;
+    font-style: oblique;
+    color: #9d5314;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 268px;
+
+}
+.whatisratatoy p
+{
+    font-size: 23px;
+    font-style: italic;
+    color: #2c241c;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+/*end what is ratatoy*/
+
+/*start ourteamwork*/
+.ourteamwork
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.ourteamwork img
+{
+    width: 100%;
+    min-height: 200px;
+    
+}
+.thumbnail{transition:all 1s ease-in-out}
+
+.one:hover{ transform:skew(10deg)}
+.two:hover{ transform:skewY(20deg)}
+.three:hover{ transform:skew(-10deg)}
+.four:hover{ transform:skew(10deg)}
+.five:hover{ transform:skewY(20deg)}
+.six:hover{ transform:skew(-10deg)}
+
+.ourteamwork .thumbnail{margin-top:20px}
+.caption{height: auto;}
+.btn-more{width: 100%;}
+.caption h3{color: #9d5314; font-size: 30px; font-style: italic;}
+.caption  .as {color: #5a26bb; font-size: 20px; font-style: italic;}
+/*end ourteamwork*/
+
+
+/*start peaoplevisitus*/
+
+/*start table*/
+
+.tablee table{width: 100%; height: 200px;}
+.tablee .ima{width: 20%;}
+
+.first-tr td{height: 30px; font-size: 20px;font-weight: bold; padding: 20px 0px; background-color: #4549bb; color: antiquewhite;}
+
+.td-name, .td-number {    background-color: #3e3126a3;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 16%;
+}
+.prog-td
+{
+    background-color: #0000006b;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 27%;
+    padding: 0px 10px;
+}
+.td-a
+{
+    background-color: #0000006b;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 27%;
+    padding: 0px 10px;
+}
+
+table > caption
+{
+    font-size: 32px;
+    color: #1be317;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 17px;
+    text-shadow: 2px 10px 14px #1b21db;
+}
+
+ 
+ table{text-shadow: 2px 10px 14px #1b21db;}
+ .tablee{background: url('../images/طوب2.jpg') no-repeat center center fixed; background-size: cover; padding: 50px 0px;}
+
+/*start table*/ 
+
+/*start video2*/ 
+.video2
+{
+    padding: 50px 0px;
+    margin-top: 30px;
+    background: url('https://pa1.narvii.com/6614/7efe2840dbaeb3afcd24f045e465fa188e88889a_hq.gif')no-repeat center center fixed ;
+    background-size: cover;
+}
+
+/*end video2*/ 
+
+
+/*start fotter*/
+
+.fotter span{display: block; line-height: 40px; font-size: 20px;  font-weight: 700;color: #d37c16;
+    transition: all 1s ease-in-out;
+}
+.fotter span:hover{ font-size: 24px;transform: skewX(20deg);cursor: pointer;}
+.fotter h4{
+    
+     font-style: italic;
+     color: #f0750a;
+     font-size: 33px;
+     font-weight: 700;
+    }
+#Tellusyoursuggestion
+{
+    font-style: italic;
+     color: #f0750a;
+     font-size: 27px;
+     font-weight: 700
+}
+.send{width: 250px; margin-bottom: 10px; margin-top: 10px;transition: all 0.7s ease-in-out;}
+.send:hover{width: 300px;height: 40px;}
+.footer textarea
+{
+width: 85%;
+max-height: 120px;
+}
+.sebt{width: 200px; margin-top: 3px; border-radius: 0;transition: all 0.7s ease-in-out;}
+.sebt:hover{width: 220px;border-radius: 5px;}
+.fotter{padding-top: 50px; padding-bottom: 50px;background-color:#f8f8f8; height: auto;}
+.end2{font-size: 25px; color: #f0750a;margin-top: 45px;}
+/*end fotter*/
+
+
+.load_open
+{
+    width: 100%;
+    background-color: #74291c;
+    height: 2000px;
+    position: relative;
+    z-index: 9999;
+}
+
+
+.glfa
+{
+  font-size: 50px;
+  margin-top: 55px;
+}
+.glfa:hover{cursor: pointer;}
+.div_show
+{
+  background-color: #9f9797ed;
+  width: 100%;
+  padding: 20px;
+  height: 300px;
+  position: fixed;
+  z-index: 55;
+  top: 184px;
+  display: none;
+}
